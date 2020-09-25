@@ -23,7 +23,7 @@ function Banner() {
         <h5>
           Planea otro tipo de escapada para descubrir nuevas cosas cerca de ti.
         </h5>
-        <Button variant="outlined">Explore Nearby</Button>
+        <Button variant="outlined">Explora los alrededores</Button>
       </div>
     </div>
   );
