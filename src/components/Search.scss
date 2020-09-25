@@ -1,0 +1,51 @@
+.search {
+  position: absolute;
+  top: 35px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px;
+    background-color: #fff;
+    left: 0;
+
+    .pl-1 {
+      padding-left: 1rem;
+    }
+  }
+
+  .search-date-picker {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+  }
+
+  .search-input {
+    width: 65px;
+    padding: 23px 17px;
+    height: 30px;
+    border: none;
+    font-size: 1rem;
+
+    &:focus {
+      outline-width: 0;
+    }
+  }
+
+  .search-button {
+    height: 46px;
+    text-transform: inherit;
+    background-color: #ff7779;
+    color: #fff;
+
+    &:hover {
+      background-color: #fff;
+      color: #ff7779;
+    }
+  }
+}

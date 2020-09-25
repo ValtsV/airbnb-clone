@@ -14,11 +14,11 @@ const Header = () => {
         alt="logo"
       />
       <div className="header-center">
-        <input type="text" />
+        <input type="text" className="header-input" />
         <SearchIcon />
       </div>
       <div className="header-right">
-        <p>Become a host</p>
+        <p>Hazte anfitrión</p>
         <LanguageIcon />
         <ExpandMoreIcon />
         <Avatar />
